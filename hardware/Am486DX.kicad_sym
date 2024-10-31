@@ -61,7 +61,7 @@
 					(type background)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 31.75 180)
 				(length 3.048)
 				(name "D20"
@@ -97,7 +97,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -31.75 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -115,7 +115,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 40.64 -50.8 180)
 				(length 3.048)
 				(name "/HITM"
@@ -223,7 +223,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 26.67 180)
 				(length 3.048)
 				(name "D22"
@@ -259,7 +259,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 24.13 180)
 				(length 3.048)
 				(name "D23"
@@ -277,7 +277,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 -7.62 180)
 				(length 3.048)
 				(name "DP3"
@@ -295,7 +295,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 21.59 180)
 				(length 3.048)
 				(name "D24"
@@ -313,7 +313,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -36.83 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -331,7 +331,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 8.89 180)
 				(length 3.048)
 				(name "D29"
@@ -349,7 +349,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -34.29 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -367,7 +367,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 34.29 180)
 				(length 3.048)
 				(name "D19"
@@ -403,7 +403,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -24.13 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -421,7 +421,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 40.64 -19.05 180)
 				(length 3.048)
 				(name "/CACHE"
@@ -493,7 +493,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 40.64 -80.01 180)
 				(length 3.048)
 				(name "TDO"
@@ -529,7 +529,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 29.21 180)
 				(length 3.048)
 				(name "D21"
@@ -547,7 +547,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -29.21 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -565,7 +565,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -26.67 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -583,7 +583,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -24.13 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -601,7 +601,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 19.05 180)
 				(length 3.048)
 				(name "D25"
@@ -619,7 +619,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -29.21 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -637,7 +637,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 3.81 180)
 				(length 3.048)
 				(name "D31"
@@ -655,7 +655,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -26.67 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -673,7 +673,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 54.61 180)
 				(length 3.048)
 				(name "D11"
@@ -727,7 +727,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 40.64 -25.4 180)
 				(length 3.048)
 				(name "/SMIACT"
@@ -763,7 +763,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 40.64 -68.58 180)
 				(length 3.048)
 				(name "/FERR"
@@ -835,7 +835,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 36.83 180)
 				(length 3.048)
 				(name "D18"
@@ -871,7 +871,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -21.59 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -889,7 +889,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -19.05 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -907,7 +907,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 13.97 180)
 				(length 3.048)
 				(name "D27"
@@ -925,7 +925,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 16.51 180)
 				(length 3.048)
 				(name "D26"
@@ -943,7 +943,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 11.43 180)
 				(length 3.048)
 				(name "D28"
@@ -961,7 +961,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 6.35 180)
 				(length 3.048)
 				(name "D30"
@@ -979,7 +979,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 59.69 180)
 				(length 3.048)
 				(name "D9"
@@ -1051,7 +1051,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 49.53 180)
 				(length 3.048)
 				(name "D13"
@@ -1069,7 +1069,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 39.37 180)
 				(length 3.048)
 				(name "D17"
@@ -1087,7 +1087,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -21.59 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -1123,7 +1123,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -13.97 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -1141,7 +1141,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -19.05 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -1159,7 +1159,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -16.51 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -1177,7 +1177,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 57.15 180)
 				(length 3.048)
 				(name "D10"
@@ -1195,7 +1195,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 -2.54 180)
 				(length 3.048)
 				(name "DP1"
@@ -1249,7 +1249,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -41.91 -30.48 0)
 				(length 3.048)
 				(name "/BE3"
@@ -1267,7 +1267,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 62.23 180)
 				(length 3.048)
 				(name "D8"
@@ -1285,7 +1285,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 44.45 180)
 				(length 3.048)
 				(name "D15"
@@ -1303,7 +1303,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -16.51 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -1339,7 +1339,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -8.89 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -1357,7 +1357,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -13.97 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -1375,7 +1375,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -11.43 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -1393,7 +1393,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 52.07 180)
 				(length 3.048)
 				(name "D12"
@@ -1411,7 +1411,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -11.43 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -1447,7 +1447,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -6.35 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -1465,7 +1465,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -8.89 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -1483,7 +1483,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 74.93 180)
 				(length 3.048)
 				(name "D3"
@@ -1501,7 +1501,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 -5.08 180)
 				(length 3.048)
 				(name "DP2"
@@ -1537,7 +1537,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -41.91 -27.94 0)
 				(length 3.048)
 				(name "/BE2"
@@ -1555,7 +1555,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -41.91 -25.4 0)
 				(length 3.048)
 				(name "/BE1"
@@ -1573,7 +1573,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 40.64 -31.75 180)
 				(length 3.048)
 				(name "PCD"
@@ -1591,7 +1591,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 69.85 180)
 				(length 3.048)
 				(name "D5"
@@ -1609,7 +1609,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 41.91 180)
 				(length 3.048)
 				(name "D16"
@@ -1627,7 +1627,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -6.35 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -1645,7 +1645,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -41.91 -22.86 0)
 				(length 3.048)
 				(name "/BE0"
@@ -1663,7 +1663,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -1.27 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -1681,7 +1681,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -3.81 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -1699,7 +1699,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -3.81 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -1717,7 +1717,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 46.99 180)
 				(length 3.048)
 				(name "D14"
@@ -1735,7 +1735,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -1.27 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -1753,7 +1753,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 40.64 -29.21 180)
 				(length 3.048)
 				(name "PWT"
@@ -1771,7 +1771,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 1.27 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -1789,7 +1789,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 1.27 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -1807,7 +1807,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 67.31 180)
 				(length 3.048)
 				(name "D6"
@@ -1825,7 +1825,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 64.77 180)
 				(length 3.048)
 				(name "D7"
@@ -1843,7 +1843,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 3.81 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -1861,7 +1861,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -41.91 -48.26 0)
 				(length 3.048)
 				(name "D/C"
@@ -1879,7 +1879,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 6.35 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -1897,7 +1897,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 6.35 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -1915,7 +1915,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 3.81 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -1933,7 +1933,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 72.39 180)
 				(length 3.048)
 				(name "D4"
@@ -1951,7 +1951,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 77.47 180)
 				(length 3.048)
 				(name "D2"
@@ -1969,7 +1969,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -41.91 -53.34 0)
 				(length 3.048)
 				(name "/LOCK"
@@ -1987,7 +1987,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -41.91 -45.72 0)
 				(length 3.048)
 				(name "M/IO"
@@ -2005,7 +2005,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -41.91 -50.8 0)
 				(length 3.048)
 				(name "W/R"
@@ -2023,7 +2023,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 80.01 180)
 				(length 3.048)
 				(name "D1"
@@ -2041,7 +2041,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 0 180)
 				(length 3.048)
 				(name "DP0"
@@ -2059,7 +2059,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 40.64 82.55 180)
 				(length 3.048)
 				(name "D0"
@@ -2077,7 +2077,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 40.64 -59.182 180)
 				(length 3.048)
 				(name "HLDA"
@@ -2095,7 +2095,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 8.89 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -2113,7 +2113,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 8.89 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -2131,7 +2131,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 -13.97 0)
 				(length 3.048)
 				(name "A29"
@@ -2149,7 +2149,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 -16.51 0)
 				(length 3.048)
 				(name "A30"
@@ -2167,7 +2167,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 -19.05 0)
 				(length 3.048)
 				(name "A31"
@@ -2185,7 +2185,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 26.67 0)
 				(length 3.048)
 				(name "A13"
@@ -2203,7 +2203,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 36.83 0)
 				(length 3.048)
 				(name "A9"
@@ -2221,7 +2221,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 46.99 0)
 				(length 3.048)
 				(name "A5"
@@ -2239,7 +2239,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 41.91 0)
 				(length 3.048)
 				(name "A7"
@@ -2257,7 +2257,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -41.91 54.61 0)
 				(length 3.048)
 				(name "A2"
@@ -2275,7 +2275,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 40.64 -54.102 180)
 				(length 3.048)
 				(name "BREQ"
@@ -2293,7 +2293,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -41.91 -55.88 0)
 				(length 3.048)
 				(name "/PLOCK"
@@ -2311,7 +2311,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 40.64 -10.16 180)
 				(length 3.048)
 				(name "/PCHK"
@@ -2329,7 +2329,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 11.43 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -2347,7 +2347,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 16.51 0)
 				(length 3.048)
 				(name "A17"
@@ -2365,7 +2365,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 11.43 0)
 				(length 3.048)
 				(name "A19"
@@ -2383,7 +2383,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 6.35 0)
 				(length 3.048)
 				(name "A21"
@@ -2401,7 +2401,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 -1.27 0)
 				(length 3.048)
 				(name "A24"
@@ -2419,7 +2419,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 3.81 0)
 				(length 3.048)
 				(name "A22"
@@ -2437,7 +2437,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 8.89 0)
 				(length 3.048)
 				(name "A20"
@@ -2455,7 +2455,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 19.05 0)
 				(length 3.048)
 				(name "A16"
@@ -2473,7 +2473,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 -11.43 0)
 				(length 3.048)
 				(name "A28"
@@ -2491,7 +2491,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 21.59 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -2509,7 +2509,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 24.13 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -2527,7 +2527,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 31.75 0)
 				(length 3.048)
 				(name "A11"
@@ -2545,7 +2545,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 39.37 0)
 				(length 3.048)
 				(name "A8"
@@ -2563,7 +2563,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 26.67 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -2581,7 +2581,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -41.91 52.07 0)
 				(length 3.048)
 				(name "A3"
@@ -2599,7 +2599,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 40.64 -16.51 180)
 				(length 3.048)
 				(name "/BLAST"
@@ -2635,7 +2635,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 -3.81 0)
 				(length 3.048)
 				(name "A25"
@@ -2653,7 +2653,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 11.43 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -2671,7 +2671,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 13.97 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -2689,7 +2689,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 13.97 0)
 				(length 3.048)
 				(name "A18"
@@ -2707,7 +2707,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 13.97 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -2725,7 +2725,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 21.59 0)
 				(length 3.048)
 				(name "A15"
@@ -2743,7 +2743,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 16.51 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -2761,7 +2761,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 19.05 87.63 270)
 				(length 3.048)
 				(name "VCC"
@@ -2779,7 +2779,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 -8.89 0)
 				(length 3.048)
 				(name "A27"
@@ -2797,7 +2797,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 24.13 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -2815,7 +2815,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 26.67 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -2833,7 +2833,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 29.21 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -2851,7 +2851,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 34.29 0)
 				(length 3.048)
 				(name "A10"
@@ -2869,7 +2869,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 31.75 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -2887,7 +2887,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 44.45 0)
 				(length 3.048)
 				(name "A6"
@@ -2905,7 +2905,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 49.53 0)
 				(length 3.048)
 				(name "A4"
@@ -2923,7 +2923,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -41.91 -39.37 0)
 				(length 3.048)
 				(name "/ADS"
@@ -2941,7 +2941,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 -6.35 0)
 				(length 3.048)
 				(name "A26"
@@ -2959,7 +2959,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 1.27 0)
 				(length 3.048)
 				(name "A23"
@@ -2977,7 +2977,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -41.91 58.42 0)
 				(length 3.048)
 				(name "VOLDET"
@@ -2995,7 +2995,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 24.13 0)
 				(length 3.048)
 				(name "A14"
@@ -3013,7 +3013,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 16.51 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -3031,7 +3031,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -41.91 29.21 0)
 				(length 3.048)
 				(name "A12"
@@ -3049,7 +3049,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 19.05 -85.09 90)
 				(length 3.048)
 				(name "VSS"
@@ -3067,7 +3067,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 21.59 -85.09 90)
 				(length 3.048)
 				(name "VSS"
