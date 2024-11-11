@@ -1,0 +1,4524 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1c2a68cc-ada4-4013-92c2-ce18f908b920")
+	(paper "USLetter")
+	(title_block
+		(title "Marlin 486 Proto")
+		(date "2024-11-10")
+		(rev "0.1")
+		(company "Colin Maykish")
+	)
+	(lib_symbols
+		(symbol "Memory_RAM:AS6C4008-55PCN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 26.035 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "AS6C4008-55PCN"
+				(at 2.54 26.035 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Package_DIP:DIP-32_W15.24mm"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "512K x 8 Low Power CMOS RAM, DIP-32"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RAM SRAM CMOS MEMORY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W15.24mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AS6C4008-55PCN_0_0"
+				(pin power_in line
+					(at 0 -27.94 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 27.94 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AS6C4008-55PCN_0_1"
+				(rectangle
+					(start -10.16 25.4)
+					(end 10.16 -25.4)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AS6C4008-55PCN_1_1"
+				(pin input line
+					(at -12.7 -22.86 0)
+					(length 2.54)
+					(name "A18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 17.78 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 20.32 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 22.86 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 22.86 180)
+					(length 2.54)
+					(name "DQ0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 20.32 180)
+					(length 2.54)
+					(name "DQ1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 17.78 180)
+					(length 2.54)
+					(name "DQ2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 15.24 180)
+					(length 2.54)
+					(name "DQ3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 12.7 180)
+					(length 2.54)
+					(name "DQ4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "DQ5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -17.78 0)
+					(length 2.54)
+					(name "A16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "DQ6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "DQ7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "CE#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "OE#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "A13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "WE#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(name "A14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -20.32 0)
+					(length 2.54)
+					(name "A17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -15.24 0)
+					(length 2.54)
+					(name "A15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 12.7 0)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 15.24 0)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(global_label "A12"
+		(shape input)
+		(at 90.17 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0267af6b-3b9b-4371-8a71-afccdba58ea2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.8867 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A17"
+		(shape input)
+		(at 38.1 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0bb70fcc-0576-45fa-9a33-278c44c0fc43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8167 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A5"
+		(shape input)
+		(at 90.17 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e1c59a1-996f-402a-ab2c-d45845c3e938")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.8867 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A8"
+		(shape input)
+		(at 90.17 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1114056a-aa5f-42d2-aad6-fbf5e7e17a23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.8867 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A4"
+		(shape input)
+		(at 142.24 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "111b9cb2-c82a-4755-a4af-5955445dc167")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.9567 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D10"
+		(shape bidirectional)
+		(at 115.57 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "135448e5-0fdd-4f97-b26d-df193d145247")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.146 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A13"
+		(shape input)
+		(at 194.31 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "16c2e99f-f537-4904-aaed-e4646301e825")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.0267 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A3"
+		(shape input)
+		(at 38.1 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17c0ddae-fcfc-45c4-97e0-54c7be2ce3a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8167 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A16"
+		(shape input)
+		(at 38.1 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "182fba6c-5809-4848-86a9-465bf1610186")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8167 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A15"
+		(shape input)
+		(at 90.17 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a79c6ed-b005-4c98-a25e-c43f84495006")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.8867 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D28"
+		(shape bidirectional)
+		(at 219.71 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a8002ea-c1f1-4901-9167-95cea86a5caf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.286 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A7"
+		(shape input)
+		(at 194.31 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ab128b2-1516-45a1-b1d1-0a84cfd2ff36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.0267 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A10"
+		(shape input)
+		(at 38.1 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ba62132-de50-4c19-b3e1-519637fff407")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8167 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D9"
+		(shape bidirectional)
+		(at 115.57 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c6ff481-d385-4d7f-b336-ebb5ceefa7c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.146 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D18"
+		(shape bidirectional)
+		(at 167.64 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e1139a7-7fd8-4c59-97bf-b1d78b85c82c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.216 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A11"
+		(shape input)
+		(at 38.1 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f2918a8-ccaa-455a-8843-392c8163276f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8167 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D27"
+		(shape bidirectional)
+		(at 219.71 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1fa36848-0da6-4c15-8e4f-f4d69ea566ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.286 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A7"
+		(shape input)
+		(at 38.1 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "213ab988-f7ec-4eab-ab5e-976d0657040a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8167 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A10"
+		(shape input)
+		(at 194.31 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21e1d80f-70a9-4df3-a8c0-58bc26059244")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.0267 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A9"
+		(shape input)
+		(at 38.1 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "259ea542-886f-4d54-b861-3871b72d5bf0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8167 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A6"
+		(shape input)
+		(at 142.24 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "281cfd80-cad9-4d8b-b6ce-88cd9684bc00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.9567 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A14"
+		(shape input)
+		(at 38.1 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f188e89-6010-4c40-88e9-4cdba7a08805")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8167 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D3"
+		(shape bidirectional)
+		(at 63.5 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3066b423-ca27-4fd5-a791-7eb9fe760e67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.076 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D2"
+		(shape bidirectional)
+		(at 63.5 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3094e589-9fb8-4778-95c3-3fedae7db578")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.076 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A20"
+		(shape input)
+		(at 142.24 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3195190e-2f9d-4b0a-89d6-62fbcc0aff56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.9567 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A19"
+		(shape input)
+		(at 38.1 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3766a472-7b58-480f-baf1-bd69c3fbf88d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8167 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D11"
+		(shape bidirectional)
+		(at 115.57 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38043ace-8c4a-4910-9373-07ab5c197154")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.146 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A16"
+		(shape input)
+		(at 90.17 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3874a7bc-1b97-4522-9154-730921cdf82e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.8867 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{slash}CS_SRAM2"
+		(shape input)
+		(at 167.64 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3bed1e01-5e90-4499-9ae6-d3248f3c9df1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.6318 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D22"
+		(shape bidirectional)
+		(at 167.64 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3fcf91a6-d01d-4581-aa62-1342411892ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.216 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A3"
+		(shape input)
+		(at 142.24 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40da3649-b3b0-41f5-8da8-f062a8d7e20b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.9567 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A7"
+		(shape input)
+		(at 142.24 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "415e7611-b99e-42db-a430-406a0f343a80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.9567 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A19"
+		(shape input)
+		(at 142.24 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43e6c8c4-ad10-4b29-abb0-4e0f2a645924")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.9567 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A15"
+		(shape input)
+		(at 194.31 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46024664-4caa-47dd-8fd6-f3fd67adaf54")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.0267 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D31"
+		(shape bidirectional)
+		(at 219.71 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48e629c1-02f4-4aa0-a4d9-fe41d7741dd6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.286 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A2"
+		(shape input)
+		(at 38.1 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a2264c6-4658-4461-930c-8c19dcf4d0ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8167 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A8"
+		(shape input)
+		(at 38.1 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b487f7b-3f51-4a21-9e21-fd585bfdd736")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8167 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D1"
+		(shape bidirectional)
+		(at 63.5 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bb11040-2f96-458c-9d7a-e1157b1c3c9e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.076 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A10"
+		(shape input)
+		(at 90.17 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4bfb8651-528c-4040-a678-b53a63f02bf2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.8867 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A7"
+		(shape input)
+		(at 90.17 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c2c233b-2e7f-4f69-9ed2-f42ed5e6fc4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.8867 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D29"
+		(shape bidirectional)
+		(at 219.71 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5267868b-750c-4c40-a24a-c8937e7f3753")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.286 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A12"
+		(shape input)
+		(at 38.1 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52eaaed1-443d-4c8c-a486-94be9b8aefe2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8167 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D6"
+		(shape bidirectional)
+		(at 63.5 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53798e33-47f6-4330-aa23-11ac8412b587")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.076 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A16"
+		(shape input)
+		(at 194.31 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "559d81ef-8c20-4473-a91a-883098803296")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.0267 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A5"
+		(shape input)
+		(at 38.1 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59188632-b794-420b-813a-c741e0f7e285")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8167 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A15"
+		(shape input)
+		(at 142.24 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b072022-5e87-4f76-a616-45f6e4933304")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.9567 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A12"
+		(shape input)
+		(at 194.31 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d4244f1-d63c-44a3-a946-4c73f216ca02")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.0267 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D0"
+		(shape bidirectional)
+		(at 63.5 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5de424a5-384e-454a-b780-cc32714d5690")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.076 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D25"
+		(shape bidirectional)
+		(at 219.71 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e1c0eeb-a1c2-48b1-a8e3-2e658dd46af7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.286 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A17"
+		(shape input)
+		(at 90.17 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60636029-c34f-4b78-a3be-b4c764a77684")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.8867 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A9"
+		(shape input)
+		(at 194.31 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6948816b-6925-454f-af8b-04c3c639d32a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.0267 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A2"
+		(shape input)
+		(at 142.24 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a5f79cb-c2f5-453b-952f-9464bcd18478")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.9567 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D7"
+		(shape bidirectional)
+		(at 63.5 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ab8e76d-fb49-4d21-8dd5-3872135e38c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.076 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A13"
+		(shape input)
+		(at 142.24 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c0fd1ca-d2a1-4afb-975a-5c62c6bc7673")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.9567 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A4"
+		(shape input)
+		(at 38.1 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6dbfa1c1-2021-48f4-94ef-8f65294e4dc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8167 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A8"
+		(shape input)
+		(at 194.31 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7517de17-8d6a-4e59-acbd-30a027174e22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.0267 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A16"
+		(shape input)
+		(at 142.24 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "753d11af-ca09-44d0-93e4-f62a6b71e6ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.9567 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D20"
+		(shape bidirectional)
+		(at 167.64 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77920a23-25ec-412c-b489-b9ddea45e2f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.216 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D4"
+		(shape bidirectional)
+		(at 63.5 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79913b44-35a8-4b6d-a6d2-6eedd2163cb2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.076 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A17"
+		(shape input)
+		(at 194.31 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79bcf338-ae1b-4400-99b9-901ce249e7a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.0267 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A17"
+		(shape input)
+		(at 142.24 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b34b519-7676-4198-8ab1-3a993e9e9eff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.9567 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A3"
+		(shape input)
+		(at 194.31 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "807f2a48-5619-4382-a39e-283d57814ff4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.0267 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{slash}CS_SRAM3"
+		(shape input)
+		(at 219.71 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80a80e3f-4668-4776-9206-6bdc350d649a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.7018 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A6"
+		(shape input)
+		(at 38.1 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "849cfd39-8c19-4658-9858-f11d9908b136")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8167 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A14"
+		(shape input)
+		(at 142.24 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85d6ed12-122a-4e6f-9c2b-03b11bccf573")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.9567 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A6"
+		(shape input)
+		(at 90.17 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "864e64ee-9c0d-48bc-b6f1-a31fb4338df5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.8867 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A20"
+		(shape input)
+		(at 38.1 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8722370e-9811-4f75-a139-b833b99588ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8167 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A5"
+		(shape input)
+		(at 194.31 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "878120c2-0c78-4305-bda7-b805c9548c4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.0267 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A19"
+		(shape input)
+		(at 90.17 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c390781-7f2d-46b2-a851-e6a6f91124ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.8867 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A20"
+		(shape input)
+		(at 90.17 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8cec95bb-5f43-4c31-8a78-7ddab865f4b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.8867 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D8"
+		(shape bidirectional)
+		(at 115.57 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8faeb54a-e9db-4471-af5f-23abce84c5cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.146 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A6"
+		(shape input)
+		(at 194.31 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9000b571-5412-4f50-a4c6-7ea207ca45cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.0267 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D24"
+		(shape bidirectional)
+		(at 219.71 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "907c29f0-af92-438c-90e9-bff9023a7312")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.286 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A13"
+		(shape input)
+		(at 38.1 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "923c0bde-c945-49c5-9bf7-4baa1532f9c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8167 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A9"
+		(shape input)
+		(at 142.24 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94d48824-217d-4f36-a29c-cd3aadf9c1f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.9567 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A10"
+		(shape input)
+		(at 142.24 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "997f3556-013e-4a9f-b8f3-5f20f97983fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.9567 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A3"
+		(shape input)
+		(at 90.17 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a7e91b5-b479-4f0e-8b54-81343824f1da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.8867 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D26"
+		(shape bidirectional)
+		(at 219.71 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2f83a52-d13c-4a9a-adbb-96c2a826a1a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.286 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A5"
+		(shape input)
+		(at 142.24 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a3696527-2183-427c-89f0-ecd6270d29df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.9567 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A18"
+		(shape input)
+		(at 142.24 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a517d4c9-d7ec-4992-9d46-f27cf7e849fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.9567 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A11"
+		(shape input)
+		(at 90.17 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a83b09b0-bc7b-4798-8ae5-14c183152f9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.8867 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A18"
+		(shape input)
+		(at 194.31 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9b4f694-9f1f-40b1-9f23-519210aed626")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.0267 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A14"
+		(shape input)
+		(at 90.17 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0abac56-9658-4773-add5-30333ed1f393")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.8867 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D23"
+		(shape bidirectional)
+		(at 167.64 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b58cccc9-40a3-4dc0-b3aa-5827695802a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.216 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D14"
+		(shape bidirectional)
+		(at 115.57 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5901e51-dee9-4829-a8ef-581ace2d301f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.146 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A18"
+		(shape input)
+		(at 90.17 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5face4f-8b7c-48eb-b5a4-6d8f81398960")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.8867 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A9"
+		(shape input)
+		(at 90.17 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b819c1a7-a077-4681-825b-122fb7ab9516")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.8867 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D12"
+		(shape bidirectional)
+		(at 115.57 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b86b7d65-aa8e-4783-ba3f-95fa455ebee7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.146 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D21"
+		(shape bidirectional)
+		(at 167.64 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bdd123f1-2e10-43bc-af93-b598966145f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.216 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A13"
+		(shape input)
+		(at 90.17 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8239b46-4e3a-4826-b3d0-3f529373fe34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.8867 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A15"
+		(shape input)
+		(at 38.1 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9c7c57d-d14c-4835-94c0-de777af15f82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8167 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{slash}CS_SRAM0"
+		(shape input)
+		(at 63.5 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb174d5d-2209-436c-8b2d-92af739d9cca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.4918 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D16"
+		(shape bidirectional)
+		(at 167.64 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1db4638-525b-4ae4-85b2-1e9391b2643f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.216 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D5"
+		(shape bidirectional)
+		(at 63.5 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e03487c4-eab1-45b8-aa14-fb4999c7781c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.076 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A20"
+		(shape input)
+		(at 194.31 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0509bf7-f812-455d-baea-547461922673")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.0267 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A14"
+		(shape input)
+		(at 194.31 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0a9253f-d5f6-4836-b3fb-739c9c8dcabf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.0267 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A12"
+		(shape input)
+		(at 142.24 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1bd65c7-e80c-4a15-8729-bd425c934c55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.9567 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D15"
+		(shape bidirectional)
+		(at 115.57 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1fbeb58-b8d9-46f0-9031-535d45c94aaa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.146 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D30"
+		(shape bidirectional)
+		(at 219.71 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e69d5dd5-84fe-4311-a1c5-d8b6cb82915e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.286 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A2"
+		(shape input)
+		(at 90.17 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6f1c3f9-bd52-41cb-a05e-83ce6e4c5c95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.8867 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A11"
+		(shape input)
+		(at 194.31 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e96ff639-9d45-454e-bab9-58cfeb3efc1f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.0267 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D17"
+		(shape bidirectional)
+		(at 167.64 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9c95dda-9169-4d17-b67f-c757b28623e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.216 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A4"
+		(shape input)
+		(at 90.17 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9e78771-a02b-4b04-a6af-fe9adcda7e0f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.8867 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D13"
+		(shape bidirectional)
+		(at 115.57 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eea34aa0-840b-4159-9d98-df20fecaa1e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.146 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A11"
+		(shape input)
+		(at 142.24 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef282184-439a-4439-b42a-a64ab9985f34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.9567 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A18"
+		(shape input)
+		(at 38.1 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f42edfcc-13f4-4a54-8f1b-fa314cc8c5a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8167 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D19"
+		(shape bidirectional)
+		(at 167.64 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4378158-480c-411c-8944-e8df948a68e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.216 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{slash}CS_SRAM1"
+		(shape input)
+		(at 115.57 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f498c9ef-ab9d-4178-8600-ac1fcaac0f00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.5618 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A2"
+		(shape input)
+		(at 194.31 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8b08dc8-d87a-4839-af7b-871455867b5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.0267 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A8"
+		(shape input)
+		(at 142.24 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9904c65-3e53-4c13-bcd3-bcfd8ff36243")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.9567 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A19"
+		(shape input)
+		(at 194.31 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc4126c5-8103-42e1-8be2-1d3df5dbc66c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.0267 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A4"
+		(shape input)
+		(at 194.31 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff0b8bce-5217-489e-84e7-eb4119866b5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.0267 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_RAM:AS6C4008-55PCN")
+		(at 102.87 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19e83c35-1e6f-4118-92c9-e813931e41a5")
+		(property "Reference" "U4"
+			(at 105.0641 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AS6C4008-55PCN"
+			(at 105.0641 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-32_W15.24mm_Socket"
+			(at 102.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf"
+			(at 102.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "512K x 8 Low Power CMOS RAM, DIP-32"
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0098e388-1170-49d1-8952-e5a64aaeaace")
+		)
+		(pin "14"
+			(uuid "af42e5c3-55dd-45bf-9bfd-5d8f8ff6d461")
+		)
+		(pin "30"
+			(uuid "2a23e4fb-7081-490e-8159-bf6353a396ba")
+		)
+		(pin "17"
+			(uuid "dc15f1fe-90a2-43f1-8ab7-118dcf606043")
+		)
+		(pin "29"
+			(uuid "f99a25cf-b962-4694-9970-e5091f7a7676")
+		)
+		(pin "26"
+			(uuid "01947294-07f8-4331-8a82-08ca06bdc0ad")
+		)
+		(pin "2"
+			(uuid "3b30f46f-87e3-44a9-9c2b-f607daad5d44")
+		)
+		(pin "31"
+			(uuid "b1e5574f-f595-4a35-bc9e-58aeab8c3c50")
+		)
+		(pin "25"
+			(uuid "9301b58c-7627-4ceb-8863-8be3e11e8449")
+		)
+		(pin "8"
+			(uuid "dcc08c94-d84a-4ea7-a448-323f587834b6")
+		)
+		(pin "1"
+			(uuid "dc8173e3-51cd-475d-83f8-97a9800bdcd5")
+		)
+		(pin "24"
+			(uuid "d7198ab3-5480-4cd6-92ee-cf74dbd29e61")
+		)
+		(pin "28"
+			(uuid "d97fa9b2-43ff-48e6-aeda-19afa7f64400")
+		)
+		(pin "9"
+			(uuid "6634d412-4b86-43bd-836c-6b2d54629983")
+		)
+		(pin "5"
+			(uuid "fabac059-da93-473a-abb1-8057e0f87600")
+		)
+		(pin "21"
+			(uuid "9311a854-1578-4139-ba1d-4fdd2873e8a9")
+		)
+		(pin "6"
+			(uuid "74870548-8f3e-44b6-8bea-16f6a717e85f")
+		)
+		(pin "7"
+			(uuid "58892102-ac4e-4907-ac5c-d0c64aac93ed")
+		)
+		(pin "27"
+			(uuid "540ea5f9-0d5a-4fca-b009-2bb307142516")
+		)
+		(pin "18"
+			(uuid "7a0e6271-9152-441c-8836-e3905df05a56")
+		)
+		(pin "4"
+			(uuid "de780ab3-3e05-42a0-9b10-6a9cbf5c4b5b")
+		)
+		(pin "32"
+			(uuid "c2257105-b279-4fce-aa7e-ed6ef1280cb2")
+		)
+		(pin "22"
+			(uuid "5353437b-3a58-41f2-9d9e-01956356952d")
+		)
+		(pin "23"
+			(uuid "ac905231-d5d6-45eb-8fb7-4380720acea8")
+		)
+		(pin "15"
+			(uuid "21de2791-870c-465f-bd0a-3b1f657cfe36")
+		)
+		(pin "16"
+			(uuid "09d1769b-1237-46ea-8bbf-5af7c5d5ab05")
+		)
+		(pin "19"
+			(uuid "8fbe4247-3698-441f-9ab5-5c207a84a8ce")
+		)
+		(pin "11"
+			(uuid "02371d2d-ee29-4c1d-9213-1b87aa12b789")
+		)
+		(pin "10"
+			(uuid "5e407140-5d1d-49ac-b243-70ae539af36d")
+		)
+		(pin "13"
+			(uuid "cb5a0c49-e56a-4b73-abba-83d361ecdc7a")
+		)
+		(pin "12"
+			(uuid "cb669836-3c6d-4b30-9b5c-815f6937e014")
+		)
+		(pin "20"
+			(uuid "e630a6db-070a-4589-b4eb-e065bde09ad9")
+		)
+		(instances
+			(project "marlin-486-proto"
+				(path "/a6a50ac5-2956-43ae-b999-06077790d4e0/c8d86c7d-a8ea-48b6-9341-50879d9b7669"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 50.8 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22ee52df-ed9c-43d5-9a92-7b3e2e223a71")
+		(property "Reference" "#PWR013"
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 50.8 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 50.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11452da0-b224-46bf-a640-326dc6d44702")
+		)
+		(instances
+			(project ""
+				(path "/a6a50ac5-2956-43ae-b999-06077790d4e0/c8d86c7d-a8ea-48b6-9341-50879d9b7669"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e5b4ed4-4f1d-45bf-96b4-fe07179ad78b")
+		(property "Reference" "#PWR020"
+			(at 207.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "468a3641-fcf3-4b59-9172-905d6917596c")
+		)
+		(instances
+			(project "marlin-486-proto"
+				(path "/a6a50ac5-2956-43ae-b999-06077790d4e0/c8d86c7d-a8ea-48b6-9341-50879d9b7669"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 154.94 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "669d46b1-89f9-4638-804b-0b70bd7bab68")
+		(property "Reference" "#PWR017"
+			(at 154.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 154.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 154.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48459e96-924c-4735-8b9a-f58d6d7fbb4c")
+		)
+		(instances
+			(project "marlin-486-proto"
+				(path "/a6a50ac5-2956-43ae-b999-06077790d4e0/c8d86c7d-a8ea-48b6-9341-50879d9b7669"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 207.01 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e573195-055a-43f5-97db-1f7c44a79478")
+		(property "Reference" "#PWR019"
+			(at 207.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 207.01 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8da7a60b-4782-44bd-8f61-e9cef3e83655")
+		)
+		(instances
+			(project "marlin-486-proto"
+				(path "/a6a50ac5-2956-43ae-b999-06077790d4e0/c8d86c7d-a8ea-48b6-9341-50879d9b7669"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "716430df-7301-48e6-8cb9-af36c1d56c49")
+		(property "Reference" "#PWR016"
+			(at 102.87 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f30d1fb-c419-48b9-b930-ae8effe997e2")
+		)
+		(instances
+			(project "marlin-486-proto"
+				(path "/a6a50ac5-2956-43ae-b999-06077790d4e0/c8d86c7d-a8ea-48b6-9341-50879d9b7669"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81e7a565-48b1-4c0e-b3bb-4c8bfad8de79")
+		(property "Reference" "#PWR014"
+			(at 50.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23c008b5-fd18-4369-8505-f4c5b11bc4db")
+		)
+		(instances
+			(project ""
+				(path "/a6a50ac5-2956-43ae-b999-06077790d4e0/c8d86c7d-a8ea-48b6-9341-50879d9b7669"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_RAM:AS6C4008-55PCN")
+		(at 154.94 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6be5550-d320-4e38-871a-6bdb660f44a5")
+		(property "Reference" "U5"
+			(at 157.1341 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AS6C4008-55PCN"
+			(at 157.1341 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-32_W15.24mm_Socket"
+			(at 154.94 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf"
+			(at 154.94 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "512K x 8 Low Power CMOS RAM, DIP-32"
+			(at 154.94 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a94b46a1-d870-4d55-b719-ae06b2a981ac")
+		)
+		(pin "14"
+			(uuid "f645b668-a82a-4a85-83d6-828aa18deba9")
+		)
+		(pin "30"
+			(uuid "448b6115-8c23-41a7-9701-b02b70f839c0")
+		)
+		(pin "17"
+			(uuid "023b489c-81b8-4b45-8ffd-43bbae1cb9aa")
+		)
+		(pin "29"
+			(uuid "2dbac0f1-68af-4b49-b21b-a80246a7aa53")
+		)
+		(pin "26"
+			(uuid "0f941cc8-7147-47b0-9b58-24e6ec155037")
+		)
+		(pin "2"
+			(uuid "48cff1d9-b3d7-4f3a-b5fb-7f06313e8384")
+		)
+		(pin "31"
+			(uuid "a7e80d5a-ebc3-4777-b1f1-daafc205eca3")
+		)
+		(pin "25"
+			(uuid "cbd96ec1-37ab-4309-8872-37cc2e200a4b")
+		)
+		(pin "8"
+			(uuid "4ec055da-b8c5-46bb-925c-51526b660201")
+		)
+		(pin "1"
+			(uuid "d64c4e43-f36f-4d09-9309-cf8c6527f2d1")
+		)
+		(pin "24"
+			(uuid "b9eca988-1c40-40ae-9967-5a98129d5a62")
+		)
+		(pin "28"
+			(uuid "4de6cb3f-3255-41ef-86d2-2439e785e479")
+		)
+		(pin "9"
+			(uuid "39e00a95-8d97-423c-b7db-f0712ba26453")
+		)
+		(pin "5"
+			(uuid "4d98d8b2-da9f-4cba-a810-8d2408a0ba69")
+		)
+		(pin "21"
+			(uuid "2a9d0688-6ca2-4e59-95cf-3e572e8f298c")
+		)
+		(pin "6"
+			(uuid "6168a02c-9a07-4a1f-baa1-a783b89233c3")
+		)
+		(pin "7"
+			(uuid "5636385b-1c1d-43f4-b4d3-487d0ffd66b7")
+		)
+		(pin "27"
+			(uuid "e089d389-1e57-43a6-8700-206043de8e28")
+		)
+		(pin "18"
+			(uuid "41558e29-5058-47ed-ade0-2eec2fdfa438")
+		)
+		(pin "4"
+			(uuid "30cabc9b-d1fe-4c31-b663-7eea3cf31b2d")
+		)
+		(pin "32"
+			(uuid "41a65298-4ca8-4c0c-94d7-ea3da5baac90")
+		)
+		(pin "22"
+			(uuid "83a030ca-d6ce-4849-95d6-bf087d32db34")
+		)
+		(pin "23"
+			(uuid "a0dfb16f-c857-4fb3-a7db-5898cb55648f")
+		)
+		(pin "15"
+			(uuid "badab828-fca0-4f2a-a16c-e06b0dde713e")
+		)
+		(pin "16"
+			(uuid "2550a776-ed88-42f4-8e48-e82130015433")
+		)
+		(pin "19"
+			(uuid "2c420e3a-1ffb-49a9-ad90-925336436036")
+		)
+		(pin "11"
+			(uuid "d702c553-aa5e-46d2-b00c-b8fb8f0c26bf")
+		)
+		(pin "10"
+			(uuid "064ddfc7-f908-4617-ae30-875d3aadb14f")
+		)
+		(pin "13"
+			(uuid "c4e816bb-badf-4e2f-b862-e7a885e5c83f")
+		)
+		(pin "12"
+			(uuid "e13099b0-7530-4f55-8ff4-81a5a517736b")
+		)
+		(pin "20"
+			(uuid "cab74c79-caef-4884-855f-63c067ee2a35")
+		)
+		(instances
+			(project "marlin-486-proto"
+				(path "/a6a50ac5-2956-43ae-b999-06077790d4e0/c8d86c7d-a8ea-48b6-9341-50879d9b7669"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_RAM:AS6C4008-55PCN")
+		(at 50.8 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3743ef5-48f2-4273-8c16-9675d9bbd679")
+		(property "Reference" "U3"
+			(at 52.9941 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AS6C4008-55PCN"
+			(at 52.9941 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-32_W15.24mm_Socket"
+			(at 50.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf"
+			(at 50.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "512K x 8 Low Power CMOS RAM, DIP-32"
+			(at 50.8 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e65e80e4-c3d3-4f19-861e-b31baf5b5a73")
+		)
+		(pin "14"
+			(uuid "56152e47-ad19-4082-ab72-9d7964c34374")
+		)
+		(pin "30"
+			(uuid "c61965fc-e7bd-43bf-88bb-1d80b98098be")
+		)
+		(pin "17"
+			(uuid "5a042b72-a270-429c-a03a-7aa611aea00b")
+		)
+		(pin "29"
+			(uuid "eac49b9f-07d6-4d1c-9037-1c34781d1ee3")
+		)
+		(pin "26"
+			(uuid "a0e8a69e-b9a7-4f44-8842-4837305636f1")
+		)
+		(pin "2"
+			(uuid "3ef9020c-e430-42bb-b2c4-15b58faf4a59")
+		)
+		(pin "31"
+			(uuid "faf0861a-124f-44f7-b9b6-0d6c73037597")
+		)
+		(pin "25"
+			(uuid "79900aac-6723-401d-9f23-793d2004abea")
+		)
+		(pin "8"
+			(uuid "7faa11d1-acd1-434a-9d7e-4a7e8fa152c3")
+		)
+		(pin "1"
+			(uuid "8d91a841-ab36-439e-a13c-a2e85f6fd3cd")
+		)
+		(pin "24"
+			(uuid "c2611af0-59ca-427c-a5c4-214781dbe0b9")
+		)
+		(pin "28"
+			(uuid "5f81b628-ee34-4fbf-95a3-c21977b4a032")
+		)
+		(pin "9"
+			(uuid "f360e0f8-f709-409e-87e3-f48741cc9d5a")
+		)
+		(pin "5"
+			(uuid "b865026c-a895-4b73-afb4-294e4e394c0d")
+		)
+		(pin "21"
+			(uuid "3b3c7085-1e11-43c2-b0b8-a2b8b0a8c998")
+		)
+		(pin "6"
+			(uuid "871f1041-af66-4192-ab48-292ed0c0836c")
+		)
+		(pin "7"
+			(uuid "e9c469a5-2835-4cba-a680-b735f5075474")
+		)
+		(pin "27"
+			(uuid "3d76994f-113d-46da-9c27-0a7134c20f7c")
+		)
+		(pin "18"
+			(uuid "ef4719c8-1e90-4df7-91c8-bf4891afa381")
+		)
+		(pin "4"
+			(uuid "da911bbb-44ca-4467-85da-59e7a78caeec")
+		)
+		(pin "32"
+			(uuid "a6626b8c-a566-47e4-80a9-a12923bf5674")
+		)
+		(pin "22"
+			(uuid "6a25b627-9cd1-413d-979e-35353d66e162")
+		)
+		(pin "23"
+			(uuid "a8c104af-6308-4bd7-b9c6-71b774de3f10")
+		)
+		(pin "15"
+			(uuid "ad4a8b52-fb87-49ec-b3b2-c979f99e1c4b")
+		)
+		(pin "16"
+			(uuid "4ee7a0d3-e8ba-4f60-aaec-c5d043207be8")
+		)
+		(pin "19"
+			(uuid "41651659-aac2-43df-85e8-665edef93a83")
+		)
+		(pin "11"
+			(uuid "2a643d76-c2d4-4c79-a718-714749858add")
+		)
+		(pin "10"
+			(uuid "bbc16345-7318-4973-ae0f-238084bf1aad")
+		)
+		(pin "13"
+			(uuid "d4a2c54c-02ec-481b-9d0e-4607b2a06206")
+		)
+		(pin "12"
+			(uuid "8929e477-7c21-45ef-ad74-561b4f3f8330")
+		)
+		(pin "20"
+			(uuid "f669aa45-f0e4-4a6a-b278-8ad37c736558")
+		)
+		(instances
+			(project ""
+				(path "/a6a50ac5-2956-43ae-b999-06077790d4e0/c8d86c7d-a8ea-48b6-9341-50879d9b7669"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 102.87 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9de8bf4-e037-4f7f-a143-d7757faca572")
+		(property "Reference" "#PWR015"
+			(at 102.87 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 102.87 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 102.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d55d90f9-5c24-4d02-a4f6-75eb058a78c1")
+		)
+		(instances
+			(project "marlin-486-proto"
+				(path "/a6a50ac5-2956-43ae-b999-06077790d4e0/c8d86c7d-a8ea-48b6-9341-50879d9b7669"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1eaec66-0ac7-41e8-b630-052a91db8452")
+		(property "Reference" "#PWR018"
+			(at 154.94 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36e19c65-786f-4b5b-84f5-003ed24796bb")
+		)
+		(instances
+			(project "marlin-486-proto"
+				(path "/a6a50ac5-2956-43ae-b999-06077790d4e0/c8d86c7d-a8ea-48b6-9341-50879d9b7669"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_RAM:AS6C4008-55PCN")
+		(at 207.01 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed3e11de-d48e-4b90-8188-61aed2c614a3")
+		(property "Reference" "U6"
+			(at 209.2041 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AS6C4008-55PCN"
+			(at 209.2041 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-32_W15.24mm_Socket"
+			(at 207.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf"
+			(at 207.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "512K x 8 Low Power CMOS RAM, DIP-32"
+			(at 207.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fb3b18ff-f40e-42b9-9e4f-cfdcf002605a")
+		)
+		(pin "14"
+			(uuid "fd2982df-5796-417b-99f9-c2d60c13c9ce")
+		)
+		(pin "30"
+			(uuid "f9c7a7b2-4e6b-4263-ab0d-500956c3c75d")
+		)
+		(pin "17"
+			(uuid "c420cc8b-74e4-4284-a7b1-781eb7465dab")
+		)
+		(pin "29"
+			(uuid "b0cbdeaf-c066-4317-b6f6-98358a69ec42")
+		)
+		(pin "26"
+			(uuid "fe062196-7bba-458d-868e-d8caaed80833")
+		)
+		(pin "2"
+			(uuid "00d34805-ba08-4248-a24b-984443e967de")
+		)
+		(pin "31"
+			(uuid "56807a55-8222-420c-976a-7a468de75334")
+		)
+		(pin "25"
+			(uuid "54172b8e-4d9a-46a4-a660-1310c67ece91")
+		)
+		(pin "8"
+			(uuid "750e9762-4b66-4ebb-806a-99e1a91f06ec")
+		)
+		(pin "1"
+			(uuid "be2b8b20-e538-4956-9386-03d5d8b8d9ef")
+		)
+		(pin "24"
+			(uuid "833ff9b9-f7fa-4f37-9aad-8f9b348b0b10")
+		)
+		(pin "28"
+			(uuid "18567533-f572-48e6-909e-99cde0eac6f3")
+		)
+		(pin "9"
+			(uuid "f05747f3-573c-4afa-98ef-6d1ddc6a0aec")
+		)
+		(pin "5"
+			(uuid "84e7d301-ba8f-437e-bc8b-e9e55937ca49")
+		)
+		(pin "21"
+			(uuid "08ea9de4-22ed-4734-8193-fbba4440b83d")
+		)
+		(pin "6"
+			(uuid "2202febb-d44c-416f-8edf-07089ab81587")
+		)
+		(pin "7"
+			(uuid "5470cf5f-6dec-49db-8f08-f5cc24624f88")
+		)
+		(pin "27"
+			(uuid "d0f0f61c-94f1-4f7d-bccb-ded2b03b6859")
+		)
+		(pin "18"
+			(uuid "fdadd30f-8fad-4bbf-879c-c19ca40fb76e")
+		)
+		(pin "4"
+			(uuid "913c7b1a-317d-4145-bb39-4bd0301888dd")
+		)
+		(pin "32"
+			(uuid "03a3e5bd-a7b8-4d6e-8182-932a7240523d")
+		)
+		(pin "22"
+			(uuid "3823a340-232b-47fe-b711-6d67aa41cd3d")
+		)
+		(pin "23"
+			(uuid "f051f3dd-b79f-488f-8933-0c5208a7d614")
+		)
+		(pin "15"
+			(uuid "8e913451-98c6-4c75-86a6-e53ae874fbb8")
+		)
+		(pin "16"
+			(uuid "06843dc5-a313-4287-9a34-f782350e3c7b")
+		)
+		(pin "19"
+			(uuid "758edfbf-ed2f-46b8-847e-7e93e2f83f0a")
+		)
+		(pin "11"
+			(uuid "f66e5b69-e4b5-4e66-b888-184f38360e40")
+		)
+		(pin "10"
+			(uuid "f85590dd-cf2c-4443-9515-b8183ad94765")
+		)
+		(pin "13"
+			(uuid "c4f6ca5b-f3f7-4fe7-8011-3fde98af3d70")
+		)
+		(pin "12"
+			(uuid "7fee9a8e-dcd2-4070-bca0-5d7655592a2f")
+		)
+		(pin "20"
+			(uuid "e9569d98-1fbf-47e6-96ee-93cd15aaf3bc")
+		)
+		(instances
+			(project "marlin-486-proto"
+				(path "/a6a50ac5-2956-43ae-b999-06077790d4e0/c8d86c7d-a8ea-48b6-9341-50879d9b7669"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
