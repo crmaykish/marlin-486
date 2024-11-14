@@ -1,5 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "PGA169")(type "KiCad")(uri "/home/colin/Workspace/marlin-486/hardware/PGA169.pretty")(options "")(descr ""))
   (lib (name "marlin-486")(type "KiCad")(uri "/home/colin/Workspace/marlin-486/hardware/marlin-486.pretty")(options "")(descr ""))
 )

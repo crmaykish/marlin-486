@@ -9004,7 +9004,7 @@
 		)
 	)
 	(sheet
-		(at 227.33 66.04)
+		(at 227.965 66.675)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -9016,7 +9016,7 @@
 		)
 		(uuid "22b0570d-9881-4f86-b678-fc6372284e3a")
 		(property "Sheetname" "CPLD"
-			(at 227.33 65.3284 0)
+			(at 227.965 65.9634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9025,7 +9025,7 @@
 			)
 		)
 		(property "Sheetfile" "cpld.kicad_sch"
-			(at 227.33 70.4346 0)
+			(at 227.965 71.0696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9042,7 +9042,7 @@
 		)
 	)
 	(sheet
-		(at 227.33 76.2)
+		(at 227.965 76.835)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -9054,7 +9054,7 @@
 		)
 		(uuid "c8d86c7d-a8ea-48b6-9341-50879d9b7669")
 		(property "Sheetname" "SRAM"
-			(at 227.33 75.4884 0)
+			(at 227.965 76.1234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9063,7 +9063,7 @@
 			)
 		)
 		(property "Sheetfile" "sram.kicad_sch"
-			(at 227.33 80.5946 0)
+			(at 227.965 81.2296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9075,6 +9075,44 @@
 			(project "marlin-486-proto"
 				(path "/a6a50ac5-2956-43ae-b999-06077790d4e0"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 227.965 86.995)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fcf35e7a-e1e7-4246-a154-4a6a8ba4b6d3")
+		(property "Sheetname" "UART"
+			(at 227.965 86.2834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uart.kicad_sch"
+			(at 227.965 91.3896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "marlin-486-proto"
+				(path "/a6a50ac5-2956-43ae-b999-06077790d4e0"
+					(page "4")
 				)
 			)
 		)

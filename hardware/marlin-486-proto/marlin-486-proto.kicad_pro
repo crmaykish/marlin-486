@@ -586,6 +586,10 @@
     [
       "c8d86c7d-a8ea-48b6-9341-50879d9b7669",
       "SRAM"
+    ],
+    [
+      "fcf35e7a-e1e7-4246-a154-4a6a8ba4b6d3",
+      "UART"
     ]
   ],
   "text_variables": {}
